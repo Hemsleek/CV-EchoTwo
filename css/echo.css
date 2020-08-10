@@ -31,10 +31,11 @@ body{
     color: #141821;
     padding: 0 3rem;
 }
-.img-container img{
+img[alt="music-box"]{
     /* object-fit: cover; */
-    width: 200.5px;
-    height: 370.98px;
+    width: 210.5px;
+    height: 410.98px;
+    margin-left:3.5rem;
     
 }
 .aside{
@@ -50,9 +51,10 @@ body{
  margin-bottom: .8rem;
 }
 .aside .heading{
-    margin-bottom: .5rem;
+    margin:.5rem 0 .7rem;
     color: #15181A;
     font-size:3.43rem ;
+    font-weight: 500;
 }
 
 .aside .name{
