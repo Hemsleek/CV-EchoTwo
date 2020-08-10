@@ -7,22 +7,126 @@ html , body{
     box-sizing: border-box;
 }
 :root{
-    font-size: 12px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 body{
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    padding:0 2rem;
-    border-radius: 20px;
-    justify-content: space-between;
-    height: 100vh;
     width: 100vw;
-
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: #f1f1f1;
+    
+}
+.container{
+    
+    background-color: #fff;
+    border-radius: 20px;
+    width: 770px;
+    height: 442px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #141821;
+    padding: 0 3rem;
+}
+.img-container img{
+    /* object-fit: cover; */
+    width: 200.5px;
+    height: 370.98px;
+    
 }
 .aside{
     display: flex;
     flex-direction: column;
+   
 
+}
+
+.aside > div,
+.aside > span
+{
+ margin-bottom: .8rem;
+}
+.aside .heading{
+    margin-bottom: .5rem;
+    color: #15181A;
+    font-size:3.43rem ;
+}
+
+.aside .name{
+    color: #858997;
+ font-size:1.29rem ;
+}
+.aside .amount{
+    color: #858997;
+
+    font-size: 1.71rem;
+}
+.aside .colors{
+    display: flex;
+    align-items: center;
+
+}
+.color{
+    display: flex;
+    align-items: center;
+    margin-right: 1.2rem;
+}
+
+
+.color .black-container{
+    width: 36px;
+    height: 36px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .5rem;
+
+}
+.color img{
+    margin-right: .5rem;
+    width: 36px;
+    height: 36px;
+} 
+.color:first-of-type img{
+    margin-right:0;
+}
+.color .black-container:after{
+    position: absolute;
+    content:url(../media/check.svg);
+}
+
+.size{
+    display: flex;
+    align-items: center;
+
+}
+.size span{
+width:90px;
+height:66px;
+border-radius: 5px;
+background:#fff;
+display: flex;
+align-items: center;
+text-align: center;
+margin-right:1.2rem;
+border: 2px solid #C3C6D1;
+font-size: 1rem;
+
+
+
+}
+.size .bg-change{
+    background: linear-gradient(180deg, #E33C7A 0%, #C036D0 100%);
+    color: #fff;
+    border: none;
+
+}
+.choose-color,
+.choose-shape{
+    padding: .8rem 0;
+    font-size:1.14rem;
 }
