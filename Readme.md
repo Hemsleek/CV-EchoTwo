@@ -1,6 +1,7 @@
 # Echo Two
 EchoTwo is an implementation of a product UI(smart speaker).
-
+## Preview
+![Screenshot](echo-shoot.png)
 
 ## Getting started
 clone or download this repository ,run the `echo.html` 
@@ -14,7 +15,7 @@ Browser version must be recent for better experience.
 You can reach me at <mubashir@codevillage.ng>\
 <asiyanbimubashir@gmail.com>
 ## Additional info 
-- One of the  projects of code village HTML/CSS section.
+- One of the  projects of code village HTML/CSS UI section.
 - This project is implemented for learning purpose only.
 ## Author
 ### _*Asiyanbi Mubashir*_
